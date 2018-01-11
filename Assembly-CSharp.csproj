@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{84AE7EE2-58BA-0FA3-23FD-3A26E8CED547}</ProjectGuid>
+    <ProjectGuid>{C67FD2CD-9799-1731-5F0D-6B0370A8A0AE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -55,10 +55,6 @@
      <Compile Include="Assets\MAIN\New Program\Block.cs" />
      <Compile Include="Assets\MAIN\New Program\StringParser.cs" />
      <Compile Include="Assets\MAIN\New Program\TileManager.cs" />
-     <Compile Include="Assets\MAIN\Scripts\Rotation\BetaTest.cs" />
-     <Compile Include="Assets\MAIN\Scripts\Rotation\CheckAnswer.cs" />
-     <Compile Include="Assets\MAIN\Scripts\Rotation\RealGame.cs" />
-     <Compile Include="Assets\MAIN\Scripts\Rotation\RotateAnim.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

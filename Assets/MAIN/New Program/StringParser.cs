@@ -40,7 +40,7 @@ public class StringParser{
         {
             return bool.Parse(strValue);
         }
-        catch (FormatException e)
+        catch (FormatException)
         {
             Debug.LogError("Cannot parse boolean value " + strValue);
             return false;
@@ -116,7 +116,7 @@ public class StringParser{
             else if (beforeParsed == "-") return (T)Enum.Parse(typeof(T), "Once");
             else return (T)Enum.Parse(typeof(T), beforeParsed);
         }
-        catch (ArgumentException e)
+        catch (ArgumentException)
         {
             Debug.LogError("Invalid enum value " + beforeParsed + " : " + typeof(T).FullName);
             return default(T); // null
