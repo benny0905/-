@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/MAIN/New Program/chap1/remake 1-1.unity
+- path: Assets/MAIN/Scenes/PreTitle.unity
   isLoaded: 1
   isActive: 1

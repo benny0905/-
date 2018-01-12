@@ -52,6 +52,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\ClickToGo.cs" />
+     <Compile Include="Assets\MAIN\audio\AudioSourceCtrl.cs" />
+     <Compile Include="Assets\MAIN\audio\DontDestoryOnLoadManager.cs" />
      <Compile Include="Assets\MAIN\New Program\Block.cs" />
      <Compile Include="Assets\MAIN\New Program\StringParser.cs" />
      <Compile Include="Assets\MAIN\New Program\TileManager.cs" />
